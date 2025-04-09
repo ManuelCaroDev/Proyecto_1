@@ -87,6 +87,12 @@
     padding: 2px;
 }
 
+.navSticky {
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
 .barraNav {
     background-color: var(--primary-color);
     padding: 5px 50px;
@@ -130,6 +136,13 @@
 main {
     background-color: var(--quinary-color);
     margin-top: 10px;
+    
+    
+}
+
+.productosMain {
+    margin-top: 10px;
+    display: flex;
 }
 
 aside {
@@ -173,3 +186,51 @@ aside {
         width: 15px;
     }
 }
+
+.productos {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 10px;
+    padding: 10px;
+}
+
+.tarjetaMain {
+    border: solid 1px rgb(188, 188, 188);
+    padding: 10px;
+    
+}
+
+.tarjetaMain:hover {
+    box-shadow: 2px 2px 2px 0px rgba(128, 128, 128, 0.3);
+}
+
+.tarjetaMainTop {
+    display: flex;
+    flex-direction: column;
+}
+
+.tarjetaPrecio {
+    display: flex;
+    justify-content: flex-end;
+    padding: 5px;
+    
+}
+
+.tarjetaMainBottom {
+    display: flex;
+    justify-content: space-between;
+    div {
+        display: flex;
+        align-items: center;
+    }
+}
+
+.puntero{
+    cursor: pointer;
+}
+
+.red {
+    color: var(--senary-color);
+}
+
+
