@@ -35,7 +35,6 @@
 
 .contact {
     display: flex;
-
     gap: 20px;
     flex-wrap: wrap;
 }
@@ -121,10 +120,13 @@
 }
 .tituloSize {
     width: 100%;
+    display: flex;
+    justify-content: center;
 }
 
 .titulo img{
     width: 100%;
+    max-width: 1960px;
     
     
 }
@@ -189,7 +191,7 @@ aside {
 
 .productos {
     display: grid;
-    grid-template-columns: repeat(3,1fr);
+    grid-template-columns: repeat(5,1fr);
     gap: 10px;
     padding: 10px;
 }
@@ -233,4 +235,34 @@ aside {
     color: var(--senary-color);
 }
 
+.info {
+    display: flex;
+    justify-content: center;
+    background-color: var(--primary-color);
+}
 
+.tarjetaInfo {
+    
+    width: 290px;
+    padding: 10px;
+}
+
+.tarjetaInfo p {
+    color: var(--secondary-color);
+}
+
+
+footer {
+    background-color: rgb(69, 69, 69);
+}
+
+.footerStyle {
+    color: var(--secondary-color);
+    padding: 5px;
+    cursor: pointer;
+}
+
+.footerFlex {
+    display: flex;
+    justify-content: space-evenly;
+}
