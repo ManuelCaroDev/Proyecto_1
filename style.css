@@ -251,7 +251,7 @@ aside {
 .info {
     display: flex;
     justify-content: center;
-    background-color: var(--primary-color);
+    background-color: black/*var(--primary-color)*/;
 }
 
 .tarjetaInfo {
