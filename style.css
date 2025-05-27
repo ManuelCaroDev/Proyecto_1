@@ -41,6 +41,7 @@
 }
 
 .ico_size {
+    width: auto;
     height: 18px;
 }
 
@@ -63,11 +64,13 @@
 
 .logo {
     width: 90px;
+    height: auto;
 }
 
 
 
 .search button {
+    width: auto;
     height: 40px;
     border-radius: 0;
     border: none;
@@ -82,6 +85,7 @@
 }
 
 .search input {
+    width: auto;
     height: 40px;
     border:none;
     border-radius: 0;
@@ -117,6 +121,7 @@
 }
 
 .titulo{
+    width: auto;
     height: 300px;
     display: flex;
     align-items: center;
@@ -126,12 +131,14 @@
 }
 .tituloSize {
     width: 100%;
+    height: auto;
     display: flex;
     justify-content: center;
 }
 
 .titulo img{
     width: 100%;
+    height: auto;
     max-width: 1960px;
     
     
@@ -163,6 +170,7 @@ aside {
 
 .tarjeta {
     width: 150px;
+    height: auto;
     border: solid 1px rgb(188, 188, 188);
     padding: 5px;
 }
@@ -175,6 +183,7 @@ aside {
     display: flex;
     img {
         width: 60px;
+        height: auto;
     }
 }
 
@@ -188,6 +197,7 @@ aside {
     }
     img {
         width: 15px;
+        height: auto;
     }
 }
 
@@ -245,8 +255,8 @@ aside {
 }
 
 .tarjetaInfo {
-    
     width: 290px;
+    height: auto;
     padding: 10px;
 }
 
@@ -321,6 +331,7 @@ footer {
 
     .titulo2 img {
         width: 100%;
+        height: auto;
         padding: 10px 0;
     }
 
@@ -335,6 +346,7 @@ footer {
 
     .searchBorder{
         width: 100%;
+        height: auto;
         display: flex;
         justify-content: space-between;
     }
@@ -350,6 +362,7 @@ footer {
     }
 
     .navMovile img {
+        width: auto;
         height: 30px;
         cursor: pointer;
     }
